@@ -21,11 +21,11 @@ homepage            https://github.com/gvcgo/version-manager
 if {${build_arch} eq "arm64"} {
     set vmr_arch     aarch64
     set vmr_asset    vmr-aarch64-apple-darwin.tar.xz
-    set vmr_sha256   1562ae267a987f346e976f32c8abd4ca848ed81aea9d05616e1e6c0f39874338
+    set vmr_sha256   f82b61eb95f1257c0b151d15a4f9dbcd1efdd3f249c9657dd83e66df342190ed
 } else {
     set vmr_arch     x86_64
     set vmr_asset    vmr-x86_64-apple-darwin.tar.xz
-    set vmr_sha256   bf74530a11eed239ec29308538d30f9003f05cfd933d49eecf41dde662547598
+    set vmr_sha256   aa3d98c9f2e3d9a7a905c3a251caa4aabbf40f0603e70a299444e5d6523de388
 }
 
 master_sites        https://github.com/gvcgo/version-manager/releases/download/v${version}/
