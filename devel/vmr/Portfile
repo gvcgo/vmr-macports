@@ -5,7 +5,7 @@
 PortSystem          1.0
 
 name                vmr
-version             0.8.4
+version             0.8.5
 revision            0
 categories          devel
 platforms           darwin
@@ -21,11 +21,11 @@ homepage            https://github.com/gvcgo/version-manager
 if {${build_arch} eq "arm64"} {
     set vmr_arch     aarch64
     set vmr_asset    vmr-aarch64-apple-darwin.tar.xz
-    set vmr_sha256   96611d39e6d45a529f77f3fb1ee82c63979ecb0cfede58614049f293f7f3d2b4
+    set vmr_sha256   61207493863a84cbf1925695d1d0c8d3d5ff8c4e81412b61b3821f0b5942a178
 } else {
     set vmr_arch     x86_64
     set vmr_asset    vmr-x86_64-apple-darwin.tar.xz
-    set vmr_sha256   4cb159a93f6d7802bfdc37ed2073c16f37b3da1899971926dbe337a09ae01968
+    set vmr_sha256   f1c23827a9d57be84cd1db4f66d5fd0c16f60005dfc7968c2b987a60081207ce
 }
 
 master_sites        https://github.com/gvcgo/version-manager/releases/download/v${version}/
